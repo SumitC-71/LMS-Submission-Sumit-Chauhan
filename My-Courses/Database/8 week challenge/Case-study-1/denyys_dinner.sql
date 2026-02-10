@@ -177,7 +177,7 @@ GROUP BY s.customer_id;
 -- and not only in the january month
 SELECT s.customer_id, SUM(m.price * 
 	CASE
-		WHEN s.order_date BETWEEN mbr.join_date AND mbr.join_date + INTERVAL '1 WEEK'
+		WHEN s.order_date BETWEEN mbr.join_date AND mbr.join_date + INTERVAL '6 DAY'
 			THEN 20
 		WHEN s.product_id=1 THEN 20
 		ELSE 10
