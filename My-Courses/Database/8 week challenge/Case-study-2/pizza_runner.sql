@@ -586,29 +586,263 @@ f_final AS (
 SELECT * FROM f_final
 ORDER BY customer_id, order_id;
 
--- Generate an alphabetically ordered comma separated ingredient list for each pizza order from the customer_orders table and add a 2x in front of any relevant ingredients
--- For example: "Meat Lovers: 2xBacon, Beef, ... , Salami"
--- What is the total quantity of each ingredient used in all delivered pizzas sorted by most frequent first?
+-- 5. Generate an alphabetically ordered comma separated ingredient list
+-- for each pizza order from the customer_orders table and add a 2x in front of any relevant ingredients
+---- For example: "Meat Lovers: 2xBacon, Beef, ... , Salami"
+
+WITH base_orders AS (
+	SELECT 
+		ROW_NUMBER() OVER (ORDER BY order_id,pizza_id,order_time) row_id,
+		*
+	FROM customer_orders
+),
+base AS (
+	SELECT b.row_id, unnest(string_to_array(r.toppings,', ')) topping_id, 1 cnt
+	FROM base_orders b
+	JOIN pizza_recipes r USING(pizza_id)
+),
+extra AS (
+	SELECT row_id, unnest(string_to_array(extras,',')) topping_id, 1 cnt
+	FROM base_orders
+),
+exclusion AS (
+	SELECT row_id, unnest(string_to_array(exclusions,',')) topping_id, -1 cnt
+	FROM base_orders
+),
+combined AS (
+	SELECT * FROM base
+	UNION ALL 
+	SELECT * FROM extra
+	UNION ALL
+	SELECT * FROM exclusion
+),
+grouped AS (
+	SELECT row_id, topping_id, SUM(cnt) cnt
+	FROM combined
+	GROUP BY row_id, topping_id
+	HAVING SUM(cnt) > 0
+),
+named AS (
+	SELECT 
+		g.row_id,
+		pt.topping_name,
+		g.cnt
+	FROM grouped g
+	JOIN pizza_toppings pt
+	ON g.topping_id::int = pt.topping_id
+),
+formatted AS (
+	SELECT 
+		row_id,
+		CASE 
+			WHEN cnt > 1 
+			THEN cnt || 'x' || topping_name
+			ELSE topping_name
+		END AS ingredient
+	FROM named
+),
+final_string AS (
+	SELECT 
+		row_id,
+		STRING_AGG(ingredient, ', ' ORDER BY ingredient) ingredients
+	FROM formatted
+	GROUP BY row_id
+)
+SELECT 
+	row_id, b.order_id, b.customer_id, b.pizza_id, order_time,
+	pn.pizza_name || ': ' || fs.ingredients AS ingredients
+FROM final_string fs
+JOIN base_orders b USING(row_id)
+JOIN pizza_names pn USING(pizza_id)
+ORDER BY b.order_id, b.row_id;
 
 
+-- 6. What is the total quantity of each ingredient used in 
+-- all delivered pizzas sorted by most frequent first?
+WITH base_orders AS (
+	SELECT 
+		ROW_NUMBER() OVER (ORDER BY order_id,pizza_id,order_time) row_id,
+		*
+	FROM customer_orders c
+	JOIN runner_orders r USING(order_id)
+	WHERE r.pickup_time IS NOT NULL AND r.cancellation IS NULL
+),
+base AS (
+	SELECT b.row_id, unnest(string_to_array(r.toppings,', ')) topping_id, 1 cnt
+	FROM base_orders b
+	JOIN pizza_recipes r USING(pizza_id)
+),
+extra AS (
+	SELECT row_id, unnest(string_to_array(extras,',')) topping_id, 1 cnt
+	FROM base_orders
+),
+exclusion AS (
+	SELECT row_id, unnest(string_to_array(exclusions,',')) topping_id, -1 cnt
+	FROM base_orders
+),
+combined AS (
+	SELECT * FROM base
+	UNION ALL 
+	SELECT * FROM extra
+	UNION ALL
+	SELECT * FROM exclusion
+),
+grouped AS (
+	SELECT topping_id::int, SUM(cnt) cnt
+	FROM combined
+	GROUP BY topping_id
+	HAVING SUM(cnt) > 0
+)
+SELECT 
+	pt.topping_name,
+	g.cnt
+FROM grouped g
+JOIN pizza_toppings pt      
+	ON g.topping_id = pt.topping_id
+ORDER BY g.cnt DESC;
+
+
+-- for total quantity, we need to add up extras and exclude exclusions
+-- assumption: we are assuming that given exclusion list will always contain the ingredients 
+-- that are present in that pizza (meaning that pizza count should never go -ve)
 
 ----------------- D. Pricing and Ratings -----------------
--- If a Meat Lovers pizza costs $12 and Vegetarian costs $10 and there were no charges for changes - how much money has Pizza Runner made so far if there are no delivery fees?
--- What if there was an additional $1 charge for any pizza extras?
--- Add cheese is $1 extra
--- The Pizza Runner team now wants to add an additional ratings system that allows customers to rate their runner, how would you design an additional table for this new dataset - generate a schema for this new table and insert your own data for ratings for each successful customer order between 1 to 5.
--- Using your newly generated table - can you join all of the information together to form a table which has the following information for successful deliveries?
--- customer_id
--- order_id
--- runner_id
--- rating 
--- order_time
--- pickup_time
--- Time between order and pickup
--- Delivery duration
--- Average speed
--- Total number of pizzas
--- If a Meat Lovers pizza was $12 and Vegetarian $10 fixed prices with no cost for extras and each runner is paid $0.30 per kilometre traveled - how much money does Pizza Runner have left over after these deliveries?
 
+-- 1. If a Meat Lovers pizza costs $12 and Vegetarian costs $10 
+-- and there were no charges for changes
+-- - how much money has Pizza Runner made so far if there are no delivery fees?
+
+-- assumption: we are taking only successfull deliveries
+SELECT 
+	SUM(
+		CASE 
+			WHEN p.pizza_name = 'Meatlovers' 
+			THEN 12
+			WHEN p.pizza_name = 'Vegetarian'
+			THEN 10
+			ELSE 0
+		END
+	) as total_cost_earned
+FROM customer_orders c
+JOIN pizza_names p USING(pizza_id)
+JOIN runner_orders r USING(order_id)
+WHERE r.cancellation IS NULL;
+
+
+-- 2. What if there was an additional $1 charge for any pizza extras?
+-- Add cheese is $1 extra
+-- per one extra 1$ extra
+
+SELECT 
+	SUM(
+		CASE 
+			WHEN p.pizza_name = 'Meatlovers' 
+			THEN 12
+			WHEN p.pizza_name = 'Vegetarian'
+			THEN 10
+			ELSE 0
+		END
+		+
+		CASE
+			WHEN extras IS NOT NULL
+			THEN array_length(string_to_array(extras,','),1)
+			ELSE 0
+		END
+	) as total_cost_earned
+FROM customer_orders c
+JOIN pizza_names p USING(pizza_id)
+JOIN runner_orders r USING(order_id)
+WHERE r.cancellation IS NULL;
+
+
+
+-- 3. The Pizza Runner team now wants to add an additional ratings system 
+-- that allows customers to rate their runner, 
+-- how would you design an additional table for this new dataset 
+-- - generate a schema for this new table and insert your own data for ratings 
+-- for each successful customer order between 1 to 5.
+
+CREATE TABLE ratings(
+	rating_id SERIAL PRIMARY KEY,
+	customer_id INTEGER,
+	order_id INTEGER UNIQUE,
+	runner_id INTEGER,
+	rating INTEGER CHECK (rating BETWEEN 1 AND 5),
+	feedback VARCHAR(255)
+);
+-- remaining: adding foreign key constraints
+
+INSERT INTO ratings (order_id, customer_id, runner_id, rating, feedback)
+VALUES
+(1, 101, 1, 5, 'Very fast delivery'),
+(2, 101, 1, 4, 'Good service'),
+(3, 102, 1, 5, 'Excellent runner'),
+(4, 103, 2, 3, 'Average delivery'),
+(5, 104, 3, 4, 'Polite and quick'),
+(7, 105, 2, 5, 'Perfect service'),
+(8, 102, 2, 4, 'Good experience'),
+(10, 104, 1, 5, 'Outstanding delivery');
+
+SELECT * FROM ratings;
+
+-- 4. Using your newly generated table 
+-- - can you join all of the information together to form a table
+--   which has the following information for successful deliveries?
+	-- customer_id
+	-- order_id
+	-- runner_id
+	-- rating 
+	-- order_time
+	-- pickup_time
+	-- Time between order and pickup
+	-- Delivery duration
+	-- Average speed
+
+SELECT c.customer_id, 
+		c.order_id, 
+		r.runner_id, 
+		rt.rating, 
+		c.order_time, 
+		r.pickup_time,
+		(r.pickup_time - c.order_time) 
+			as time_between_order_and_pickup,
+		r.duration 
+			as delivery_duration_minutes,
+		round(r.distance/(r.duration/60.0),2) 
+			as avg_speed_kmph
+FROM customer_orders c
+JOIN runner_orders r USING(order_id)
+JOIN ratings rt USING(order_id)
+WHERE r.cancellation IS NULL;
+	
+-- 5. Total number of pizzas
+-- If a Meat Lovers pizza was $12 and Vegetarian $10 fixed prices with no cost for extras and each runner is paid $0.30 per kilometre traveled 
+-- - how much money does Pizza Runner have left over after these deliveries?
+
+-- total price left over = total price got by making pizzas (revenue)	
+-- 							- cost need to be given to runners for their rides
+WITH total_revenue_cte AS (
+	SELECT 
+		SUM(
+			CASE 
+				WHEN p.pizza_name = 'Meatlovers' 
+				THEN 12
+				WHEN p.pizza_name = 'Vegetarian'
+				THEN 10
+				ELSE 0
+			END
+		) AS tot_revenue
+	FROM customer_orders c
+	JOIN pizza_names p USING(pizza_id)
+	JOIN runner_orders r USING (order_id)
+	WHERE r.cancellation IS NULL
+),
+runner_cost_cte AS (
+	SELECT SUM(distance * 0.3) runner_cost FROM runner_orders
+)
+SELECT 
+	tot_revenue-runner_cost 
+		AS total_price_left_over
+FROM runner_cost_cte, total_revenue_cte;
 
 
