@@ -1,4 +1,5 @@
-This is SQL 8-week-challenge 
-In this there are 8 case-studies
+# SQL 8-week-challenge 
+- There are 8 case-studies in it
+- solution include .sql files and word docs for each 
 
-Challenge Link: https://8weeksqlchallenge.com/
+- Challenge Link: https://8weeksqlchallenge.com/
