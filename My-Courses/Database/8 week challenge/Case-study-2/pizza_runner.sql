@@ -762,7 +762,7 @@ WHERE r.cancellation IS NULL;
 -- - generate a schema for this new table and insert your own data for ratings 
 -- for each successful customer order between 1 to 5.
 
-CREATE TABLE ratings(
+CREATE TABLE IF NOT EXISTS ratings(
 	rating_id SERIAL PRIMARY KEY,
 	customer_id INTEGER,
 	order_id INTEGER UNIQUE,
@@ -797,26 +797,39 @@ SELECT * FROM ratings;
 	-- Time between order and pickup
 	-- Delivery duration
 	-- Average speed
+	-- Total number of pizzas
 
-SELECT c.customer_id, 
-		c.order_id, 
-		r.runner_id, 
-		rt.rating, 
-		c.order_time, 
-		r.pickup_time,
-		(r.pickup_time - c.order_time) 
-			as time_between_order_and_pickup,
-		r.duration 
-			as delivery_duration_minutes,
-		round(r.distance/(r.duration/60.0),2) 
-			as avg_speed_kmph
+SELECT 
+    c.customer_id, 
+    c.order_id, 
+    r.runner_id, 
+    rt.rating, 
+    c.order_time, 
+    r.pickup_time,
+    (r.pickup_time - c.order_time) 
+        AS time_between_order_and_pickup,
+    r.duration 
+        AS delivery_duration_minutes,
+    ROUND(r.distance/(r.duration/60.0),2) 
+        AS avg_speed_kmph,
+    COUNT(c.pizza_id) 
+        AS total_number_of_pizzas
 FROM customer_orders c
 JOIN runner_orders r USING(order_id)
 JOIN ratings rt USING(order_id)
-WHERE r.cancellation IS NULL;
+WHERE r.cancellation IS NULL
+GROUP BY 
+    c.customer_id,
+    c.order_id,
+    r.runner_id,
+    rt.rating,
+    c.order_time,
+    r.pickup_time,
+    r.duration,
+    r.distance;
+
 	
--- 5. Total number of pizzas
--- If a Meat Lovers pizza was $12 and Vegetarian $10 fixed prices with no cost for extras and each runner is paid $0.30 per kilometre traveled 
+-- 5. If a Meat Lovers pizza was $12 and Vegetarian $10 fixed prices with no cost for extras and each runner is paid $0.30 per kilometre traveled 
 -- - how much money does Pizza Runner have left over after these deliveries?
 
 -- total price left over = total price got by making pizzas (revenue)	
