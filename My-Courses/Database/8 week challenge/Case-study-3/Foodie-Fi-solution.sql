@@ -116,7 +116,7 @@ SELECT
           / (SELECT COUNT(DISTINCT customer_id) FROM subscriptions)
     ,0) AS percentage
 FROM trial_next
-WHERE next_plan = 4 and plan_id = 0
+WHERE next_plan = 4 and plan_id = 0;
 
 -- 6. What is the number and percentage of customer plans after their initial free trial?
 WITH cte AS (
@@ -310,14 +310,8 @@ cte3 AS (
 			plan_name,
 			GENERATE_SERIES(
 				curr_date,
-				curr_date- interval '1 DAY' ,
 				CASE 
-					WHEN next_start_date IS NULL
-					THEN DATE '2020-12-31'
-					WHEN plan_id=1
-					THEN next_start_date
-					WHEN plan_id=2 and curr_date 
-					THEN next_start_date
+					
 				END,
 				'1 month'::interval
 			)::date payment_date,
@@ -331,6 +325,3 @@ SELECT *,ROW_NUMBER() OVER(
 FROM cte3
 ORDER BY customer_id;
 
-
-SELECT * FROM subscriptions
-WHERE customer_id=19;
