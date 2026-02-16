@@ -334,4 +334,3 @@ ORDER BY customer_id;
 
 SELECT * FROM subscriptions
 WHERE customer_id=19;
-
