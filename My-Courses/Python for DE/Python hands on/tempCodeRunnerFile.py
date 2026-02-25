@@ -1,4 +1,5 @@
-lst = range(10)
-square = lambda x: x%2 == 0
-evens = (filter(square, lst))
-print(evens)
+like images
+with open('photo.jpeg','rb') as rf:
+    with open('binary_copy','wb') as wf:
+        for line in rf:
+            wf.write(
