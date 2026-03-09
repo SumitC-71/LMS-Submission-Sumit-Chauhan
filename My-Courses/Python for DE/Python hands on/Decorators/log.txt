@@ -1,0 +1,10 @@
+LOG: function with 1 2
+LOG: function with 1 2
+LOG: function with 1 2
+LOG: function with 1 2
+LOG: function with 1 2
+LOG: function with 1 2 and returning 3
+LOG: function with 3 and returning None
+LOG: function with 3 and returning None
+LOG: function with 3 and returning None
+LOG: function sum with 1 2 and returning 3
