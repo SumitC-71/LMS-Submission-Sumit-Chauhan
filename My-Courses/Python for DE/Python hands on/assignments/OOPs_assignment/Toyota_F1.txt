@@ -1,0 +1,5 @@
+vehicle info: 
+brand: Toyota
+year: 2020
+model: F1
+price: 100000
