@@ -1,0 +1,9 @@
+2026-03-06 18:01:09,564 - INFO - test the custom logger
+2026-03-06 18:49:22,371 - INFO - test the custom logger - 
+2026-03-06 18:49:29,417 - INFO - test the custom logger - 57
+2026-03-06 18:50:08,390 - INFO - test the custom logger - 57 - practice.py
+2026-03-06 18:51:29,857 - INFO - test the custom logger - 57 - practice.py
+2026-03-06 18:51:39,366 - INFO - test the custom logger - 57 - practice.py
+2026-03-06 18:51:39,366 - INFO - hello world - 59 - practice.py
+2026-03-09 10:06:03,275 - INFO - test the custom logger - 59 - practice.py
+2026-03-09 10:06:03,275 - INFO - hello world - 61 - practice.py
