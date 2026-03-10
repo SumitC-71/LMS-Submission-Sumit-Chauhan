@@ -1,0 +1,123 @@
+2026-03-10 14:06:19,450 | pipeline_logger | logger_config.py | function task_logger | line 45 | INFO | ======== Task Data loading started ========
+
+2026-03-10 14:06:19,454 | pipeline_logger | main.py | function task1_data_loading | line 20 | INFO | Dataset schema:
+Employee_ID              int64
+Name                       str
+Age                    float64
+Department                 str
+Salary                 float64
+Joining_Date    datetime64[us]
+Resigned                  bool
+dtype: object
+2026-03-10 14:06:19,457 | pipeline_logger | main.py | function task1_data_loading | line 22 | INFO | Dataset sample:
+   Employee_ID              Name   Age Department   Salary Joining_Date  Resigned
+0         1001       Steven Dunn  30.0         IT  46846.0   2024-06-09     False
+1         1002   Jennifer Romero  54.0         IT  43585.0   2018-02-07     False
+2         1003        Dana Haney  59.0    Finance      NaN   2019-01-11     False
+3         1004      Louis Powers  60.0    Finance  58094.0   2019-09-26     False
+4         1005  Jennifer Gilmore  54.0  Marketing  80848.0   2020-02-09     False
+2026-03-10 14:06:19,472 | pipeline_logger | main.py | function task1_data_loading | line 24 | INFO | Total Records: 100
+2026-03-10 14:06:19,473 | pipeline_logger | main.py | function task1_data_loading | line 26 | INFO | Missing values:
+Employee_ID      0
+Name             0
+Age             16
+Department       0
+Salary           8
+Joining_Date     0
+Resigned         0
+dtype: int64
+2026-03-10 14:06:19,474 | pipeline_logger | logger_config.py | function task_logger | line 47 | INFO | ======== Task Data loading completed ========
+
+2026-03-10 14:06:19,474 | pipeline_logger | logger_config.py | function task_logger | line 45 | INFO | ======== Task Data Cleaning started ========
+
+2026-03-10 14:06:19,474 | pipeline_logger | main.py | function task2_data_cleaning | line 38 | INFO | Missing values:
+Employee_ID      0
+Name             0
+Age             16
+Department       0
+Salary           8
+Joining_Date     0
+Resigned         0
+dtype: int64
+2026-03-10 14:06:19,476 | pipeline_logger | main.py | function task2_data_cleaning | line 43 | INFO | Missing Age values replaced with median: 45.5
+2026-03-10 14:06:19,476 | pipeline_logger | main.py | function task2_data_cleaning | line 48 | INFO | Missing Salary values replaced with mean: 59643.92391304348
+2026-03-10 14:06:19,477 | pipeline_logger | main.py | function task2_data_cleaning | line 54 | INFO | Removed 0 duplicate records
+2026-03-10 14:06:19,478 | pipeline_logger | main.py | function task2_data_cleaning | line 60 | INFO | Column names standardized
+2026-03-10 14:06:19,480 | pipeline_logger | main.py | function task2_data_cleaning | line 75 | INFO | Datatypes standardized
+2026-03-10 14:06:19,480 | pipeline_logger | main.py | function task2_data_cleaning | line 77 | INFO | Standardized columns and datatypes: 
+employee_id              int64
+name                    string
+age                      int64
+department              string
+salary                 float64
+joining_date    datetime64[ns]
+resigned                  bool
+dtype: object
+2026-03-10 14:06:19,481 | pipeline_logger | logger_config.py | function task_logger | line 47 | INFO | ======== Task Data Cleaning completed ========
+
+2026-03-10 14:06:19,482 | pipeline_logger | logger_config.py | function task_logger | line 45 | INFO | ======== Task Data manipulation started ========
+
+2026-03-10 14:06:19,483 | pipeline_logger | main.py | function task3_data_manipulation | line 93 | INFO | Filtered employees where (age > 25 OR salary > 40000) AND not resigned. Records before: 100, after: 49
+2026-03-10 14:06:19,485 | pipeline_logger | main.py | function task3_data_manipulation | line 99 | INFO | YearsInCompany column added, example:
+0    1
+1    8
+2    7
+3    6
+4    6
+Name: YearsInCompany, dtype: int64
+2026-03-10 14:06:19,485 | pipeline_logger | logger_config.py | function task_logger | line 47 | INFO | ======== Task Data manipulation completed ========
+
+2026-03-10 14:06:19,485 | pipeline_logger | logger_config.py | function task_logger | line 45 | INFO | ======== Task Data analysis started ========
+
+2026-03-10 14:06:19,486 | pipeline_logger | main.py | function task4_analysis | line 109 | INFO | unique departments <StringArray>
+['IT', 'Finance', 'Marketing', 'HR']
+Length: 4, dtype: string
+2026-03-10 14:06:19,487 | pipeline_logger | main.py | function task4_analysis | line 110 | INFO | Department-wise average salary 
+                    mean
+department              
+Finance     57641.243659
+HR          60654.057745
+IT          59125.545455
+Marketing   61567.984783
+2026-03-10 14:06:19,494 | pipeline_logger | main.py | function task4_analysis | line 111 | INFO | Department-wise median age 
+            median
+department        
+Finance       41.0
+HR            42.5
+IT            45.0
+Marketing     45.0
+2026-03-10 14:06:19,500 | pipeline_logger | main.py | function task4_analysis | line 113 | INFO | IT departments salaries before increment: 
+0     46846.0
+1     43585.0
+15    66746.0
+25    58591.0
+32    80900.0
+Name: salary, dtype: float64
+2026-03-10 14:06:19,503 | pipeline_logger | main.py | function task4_analysis | line 118 | INFO | IT departments salaries after increment: 
+0     51530.6
+1     47943.5
+15    73420.6
+25    64450.1
+32    88990.0
+Name: salary, dtype: float64
+2026-03-10 14:06:19,504 | pipeline_logger | logger_config.py | function task_logger | line 47 | INFO | ======== Task Data analysis completed ========
+
+2026-03-10 14:06:19,505 | pipeline_logger | logger_config.py | function task_logger | line 45 | INFO | ======== Task Data export started ========
+
+2026-03-10 14:06:19,507 | pipeline_logger | main.py | function task5_export | line 130 | INFO | Dataset sorted based on joining date: 
+    employee_id             name  age department   salary joining_date  resigned  YearsInCompany
+59         1060  Holly Rodriguez   41         HR  85452.0   2024-10-09     False               1
+33         1034      April Yoder   55    Finance  53113.0   2024-07-20     False               1
+0          1001      Steven Dunn   30         IT  51530.6   2024-06-09     False               1
+11         1012  Joseph Erickson   45         HR  65527.0   2024-03-03     False               2
+39         1040   Benjamin Lucas   39         HR  76407.0   2024-01-12     False               2
+2026-03-10 14:06:19,521 | pipeline_logger | main.py | function task5_export | line 134 | INFO | Final dataset sample: 
+    employee_id             name  age department   salary  YearsInCompany
+59         1060  Holly Rodriguez   41         HR  85452.0               1
+33         1034      April Yoder   55    Finance  53113.0               1
+0          1001      Steven Dunn   30         IT  51530.6               1
+11         1012  Joseph Erickson   45         HR  65527.0               2
+39         1040   Benjamin Lucas   39         HR  76407.0               2
+2026-03-10 14:06:19,534 | pipeline_logger | main.py | function task5_export | line 138 | INFO | Data Loaded Successfully
+2026-03-10 14:06:19,534 | pipeline_logger | logger_config.py | function task_logger | line 47 | INFO | ======== Task Data export completed ========
+
