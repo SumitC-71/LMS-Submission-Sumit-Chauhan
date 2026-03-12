@@ -1,0 +1,6 @@
+2026-03-12 16:12:03,486 | ERROR | fetch_data | line 17 | Invalid end-point: https://jsonplaceholder.typicode.com/kfksks returned 404 Not Found
+2026-03-12 16:12:03,486 | ERROR | fetch_data | line 37 | Unexpected error: Invalid end-point: 404 Not Found while accessing https://jsonplaceholder.typicode.com/kfksks
+2026-03-12 16:12:03,488 | ERROR | job | line 37 | Failed to fetch posts at 2026-03-12 16:12:02 - API returned None
+2026-03-12 16:19:12,545 | ERROR | insert_records_into_posts | line 83 | Error inserting records: 'user_id'
+2026-03-12 16:19:22,403 | ERROR | insert_records_into_posts | line 83 | Error inserting records: 'user_id'
+2026-03-12 16:20:41,057 | ERROR | insert_records_into_posts | line 83 | Error inserting records: 'user_id'
