@@ -38,7 +38,7 @@ def job():
 
 # initialize scheduler
 scheduler = BackgroundScheduler()
-scheduler.add_job(job, 'interval', seconds=10)
+scheduler.add_job(job, 'interval', minutes=10)
 scheduler.start()
 
 print("Scheduler started. Running scheduled task every 10 minutes...")
