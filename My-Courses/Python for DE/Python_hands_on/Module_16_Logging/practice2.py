@@ -10,5 +10,3 @@ def main():
     logging.info('hello')
 
 main()
-
-

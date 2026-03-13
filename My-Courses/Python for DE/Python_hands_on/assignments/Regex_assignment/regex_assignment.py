@@ -276,3 +276,4 @@ def log_parser():
         json.dump(parsed_logs,wf,indent=2)
         print(f'All parsed logs added to {new_file}')
 
+extract_phone_numbers()
