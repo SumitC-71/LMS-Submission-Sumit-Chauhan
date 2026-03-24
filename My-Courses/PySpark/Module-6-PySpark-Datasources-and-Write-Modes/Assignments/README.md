@@ -12,61 +12,61 @@ Input involves multiple CSV files which may contain missing values, duplicates, 
 Programmatic handling of empty files and schema enforcement is required.
 The Spark Web UI (http://localhost:4040) should be used to observe execution stages and tasks.
 ## Functional Requirements
-1. Spark Application Setup
-The application must initialize a valid environment:
+### 1. Spark Application Setup
+    The application must initialize a valid environment:
 
-Create a SparkSession with a clear application name.
+    Create a SparkSession with a clear application name.
 
-Explicitly configure the master URL to local mode.
+    Explicitly configure the master URL to local mode.
 
-2. Data Ingestion & Validation
-Validation Logic: Separate valid records from invalid/malformed records.
+### 2. Data Ingestion & Validation
+    Validation Logic: Separate valid records from invalid/malformed records.
 
-Audit: Report the total number of records vs. incomplete records.
+    Audit: Report the total number of records vs. incomplete records.
 
-Schema: Enforce an explicit schema (StructType) during the ingestion of valid data.
+    Schema: Enforce an explicit schema (StructType) during the ingestion of valid data.
 
-3. Data Cleaning & Standardization
-Apply transformations to ensure data readiness:
+### 3. Data Cleaning & Standardization
+    Apply transformations to ensure data readiness:
 
-Null Handling: Remove or impute missing values.
+    Null Handling: Remove or impute missing values.
 
-Deduplication: Identify and remove duplicate transaction records.
+    Deduplication: Identify and remove duplicate transaction records.
 
-Standardization: Normalize inconsistent category values and cast columns to correct numeric/timestamp types.
+    Standardization: Normalize inconsistent category values and cast columns to correct numeric/timestamp types.
 
-4. Partitioning & Performance
-Demonstrate awareness of Spark’s distributed architecture:
+### 4. Partitioning & Performance
+    Demonstrate awareness of Spark’s distributed architecture:
 
-Inspect and modify the number of partitions to optimize parallel processing.
+    Inspect and modify the number of partitions to optimize parallel processing.
 
-Use coalesce() or repartition() appropriately to reduce partitions before writing.
+    Use coalesce() or repartition() appropriately to reduce partitions before writing.
 
-Implement caching or persistence only for DataFrames reused in multiple actions.
+    Implement caching or persistence only for DataFrames reused in multiple actions.
 
-5. Business Analytics & Aggregations
-Generate the following reports using distributed operations:
+### 5. Business Analytics & Aggregations
+    Generate the following reports using distributed operations:
 
-Total Revenue: Calculated per country.
+    Total Revenue: Calculated per country.
 
-Top Performers: Identify the top 5 products by total revenue.
+    Top Performers: Identify the top 5 products by total revenue.
 
-Platform Metrics: Average order value per platform.
+    Platform Metrics: Average order value per platform.
 
-Trends: Daily transaction count trends.
+    Trends: Daily transaction count trends.
 
-6. Data Integration & Advanced Features
-Join Operations: Join transactional data with a reference dataset (Product name, Brand) using optimization techniques like Broadcast Joins.
+### 6. Data Integration & Advanced Features
+    Join Operations: Join transactional data with a reference dataset (Product name, Brand) using optimization techniques like Broadcast Joins.
 
-Tracking: Utilize Accumulators to track specific metrics (e.g., total invalid records) across the cluster.
+    Tracking: Utilize Accumulators to track specific metrics (e.g., total invalid records) across the cluster.
 
-7. Output Management
-Write the final processed dataset to the local filesystem.
+### 7. Output Management
+    Write the final processed dataset to the local filesystem.
 
-The output must use a columnar storage format.
+    The output must use a columnar storage format.
 
-Partitioning: Organize the output folder by a logical business column.
+    Partitioning: Organize the output folder by a logical business column.
 
-Deliverables
-One PySpark File: A .py script or a Jupyter Notebook containing the complete pipeline logic.
+    Deliverables
+    One PySpark File: A .py script or a Jupyter Notebook containing the complete pipeline logic.
 
