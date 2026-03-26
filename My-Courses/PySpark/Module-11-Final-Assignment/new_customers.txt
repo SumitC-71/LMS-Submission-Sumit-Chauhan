@@ -1,0 +1,3 @@
+customer_id,customer_name,email,age,city
+108,Rahul Yadav,rahul.yadav@email.com,30,Bangalore
+109,Priya Patel,priya.patel@email.com,27,Ahmedabad

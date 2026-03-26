@@ -1,0 +1,8 @@
+customer_id,customer_name,email,age,city
+101,Arun Sharma,arun.sharma@email.com,28,Delhi
+102,Meena Verma,meena.verma@email.com,34,Mumbai
+103,Rahul Yadav,rahul.yadav@email.com,30,Bangalore
+104,Priya Patel,priya.patel@email.com,27,Ahmedabad
+105,Sneha Reddy,sneha.reddy@email.com,29,Hyderabad
+106,Vikas Jain,vikas.jain@email.com,31,Chennai
+107,Amit Roy,amit.roy@email.com,35,Kolkata

@@ -1,0 +1,11 @@
+sales_id,customer_id,product,amount,sale_date,region
+1,101,Laptop,50000,2023-01-15,North
+2,102,Mobile,15000,2023-02-10,South
+3,103,Tablet,20000,2023-03-05,West
+4,104,Laptop,55000,2023-03-15,East
+5,105,Desktop,40000,2023-04-20,North
+6,101,Mobile,15000,2023-05-10,South
+7,102,Laptop,60000,2023-06-15,East
+8,103,Tablet,20000,2023-07-05,North
+9,104,Desktop,45000,2023-08-10,West
+10,105,Laptop,70000,2023-09-25,North
