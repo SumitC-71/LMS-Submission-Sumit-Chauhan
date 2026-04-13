@@ -1,0 +1,27 @@
+Car,MPG,Cylinders,Displacement,Horsepower,Weight,Acceleration,Model,Origin
+Chevrolet Chevelle Malibu,18.0,8,307.0,130.0,3504.,12.0,70,US
+Buick Skylark 320,15.0,8,350.0,165.0,3693.,11.5,70,US
+Plymouth Satellite,18.0,8,318.0,150.0,3436.,11.0,70,US
+AMC Rebel SST,16.0,8,304.0,150.0,3433.,12.0,70,US
+Ford Torino,17.0,8,302.0,140.0,3449.,10.5,70,US
+Ford Galaxie 500,15.0,8,429.0,198.0,4341.,10.0,70,US
+Chevrolet Impala,14.0,8,454.0,220.0,4354.,9.0,70,US
+Plymouth Fury iii,14.0,8,440.0,215.0,4312.,8.5,70,US
+Pontiac Catalina,14.0,8,455.0,225.0,4425.,10.0,70,US
+AMC Ambassador DPL,15.0,8,390.0,190.0,3850.,8.5,70,US
+Citroen DS-21 Pallas,0,4,133.0,115.0,3090.,17.5,70,Europe
+Chevrolet Chevelle Concours (sw),0,8,350.0,165.0,4142.,11.5,70,US
+Ford Torino (sw),0,8,351.0,153.0,4034.,11.0,70,US
+Plymouth Satellite (sw),0,8,383.0,175.0,4166.,10.5,70,US
+AMC Rebel SST (sw),0,8,360.0,175.0,3850.,11.0,70,US
+Dodge Challenger SE,15.0,8,383.0,170.0,3563.,10.0,70,US
+Plymouth 'Cuda 340,14.0,8,340.0,160.0,3609.,8.0,70,US
+Ford Mustang Boss 302,0,8,302.0,140.0,3353.,8.0,70,US
+Chevrolet Monte Carlo,15.0,8,400.0,150.0,3761.,9.5,70,US
+Buick Estate Wagon (sw),14.0,8,455.0,225.0,3086.,10.0,70,US
+Toyota Corolla Mark ii,24.0,4,113.0,95.00,2372.,15.0,70,Japan
+Plymouth Duster,22.0,6,198.0,95.00,2833.,15.5,70,US
+AMC Hornet,18.0,6,199.0,97.00,2774.,15.5,70,US
+Ford Maverick,21.0,6,200.0,85.00,2587.,16.0,70,US
+Datsun PL510,27.0,4,97.00,88.00,2130.,14.5,70,Japan
+Volkswagen 1131 Deluxe Sedan,26.0,4,97.00,46.00,1835.,20.5,70,Europe
