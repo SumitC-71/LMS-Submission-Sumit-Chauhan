@@ -1,0 +1,1001 @@
+EmployeeID,Name,Department,Salary
+1038,Employee_1038,operations,10100
+1727,Employee_1727, HR ,
+1847,Employee_1847,hr,4500
+1296,Employee_1296,marketing,9600
+1925,Employee_1925,operations,11700
+1659,Employee_1659,HR,11400
+1683,Employee_1683,Marketing,3000
+1287,Employee_1287, marketing ,2300
+1881,Employee_1881,Sales,
+1273,Employee_1273,operations,
+1138,Employee_1138, finance ,4400
+1544,Employee_1544,HR,8700
+1516,Employee_1516, IT ,3900
+1789,Employee_1789,marketing,4400
+1861,Employee_1861, marketing ,
+1641,Employee_1641, operations ,7200
+1738,Employee_1738,Finance,
+1684,Employee_1684,Finance,9100
+1413,Employee_1413, HR ,5300
+1072,Employee_1072, sales ,9300
+1214,Employee_1214,finance,
+1068,Employee_1068,HR,5100
+1232,Employee_1232,Marketing,6200
+1857,Employee_1857, finance ,
+1198,Employee_1198,HR,
+1640,Employee_1640,Sales,4400
+1377,Employee_1377,operations,5800
+1193,Employee_1193,Sales,11600
+1100,Employee_1100, marketing ,6800
+1679,Employee_1679,Marketing,10100
+1651,Employee_1651,Marketing,
+1224,Employee_1224, finance ,8900
+1206,Employee_1206,Marketing,
+1749,Employee_1749,it,
+1463,Employee_1463,Sales,5500
+1147,Employee_1147,marketing,7200
+1021,Employee_1021, IT ,
+1898,Employee_1898,Sales,
+1547,Employee_1547, operations ,11500
+1647,Employee_1647, marketing ,4800
+1688,Employee_1688,Operations,
+1936,Employee_1936, operations ,10900
+1822,Employee_1822,hr,
+1554,Employee_1554, finance ,2300
+1590,Employee_1590,HR,
+1371,Employee_1371,marketing,
+1597,Employee_1597, HR ,6700
+1887,Employee_1887,IT,7300
+1795,Employee_1795,Sales,6300
+1914,Employee_1914, IT ,
+1016,Employee_1016,marketing,2200
+1758,Employee_1758,finance,8000
+1445,Employee_1445, sales ,7000
+1331,Employee_1331, IT ,3900
+1872,Employee_1872, IT ,11500
+1018,Employee_1018,sales,5700
+1544,Employee_1544,HR,8700
+1526,Employee_1526, finance ,2700
+1165,Employee_1165, marketing ,8200
+1864,Employee_1864, sales ,5200
+1183,Employee_1183, operations ,10800
+1928,Employee_1928,sales,7300
+1102,Employee_1102, HR ,
+1579,Employee_1579,finance,
+1186,Employee_1186,hr,9300
+1069,Employee_1069,Operations,8000
+1616,Employee_1616,finance,2000
+1550,Employee_1550,Finance,
+1339,Employee_1339,it,
+1323,Employee_1323, IT ,2000
+1280,Employee_1280,sales,6400
+1289,Employee_1289,finance,3600
+1252,Employee_1252, finance ,
+1909,Employee_1909,HR,
+1237,Employee_1237, sales ,2300
+1509,Employee_1509,HR,3400
+1717,Employee_1717,HR,8200
+1932,Employee_1932, finance ,
+1231,Employee_1231,Finance,6800
+1622,Employee_1622,IT,6400
+1728,Employee_1728,Sales,2500
+1233,Employee_1233,sales,11500
+1833,Employee_1833,marketing,4200
+1410,Employee_1410,hr,4900
+1798,Employee_1798, sales ,10500
+1144,Employee_1144, marketing ,9000
+1907,Employee_1907, HR ,
+1600,Employee_1600, operations ,9800
+1200,Employee_1200, marketing ,7300
+1066,Employee_1066, finance ,
+1180,Employee_1180,it,3800
+1281,Employee_1281, HR ,6800
+1831,Employee_1831, marketing ,3200
+1743,Employee_1743,Operations,5500
+1464,Employee_1464,Operations,11000
+1159,Employee_1159,Sales,9900
+1716,Employee_1716,Finance,
+1882,Employee_1882,Sales,3200
+1825,Employee_1825, operations ,10700
+1519,Employee_1519,HR,6000
+1654,Employee_1654,it,5000
+1259,Employee_1259,Sales,
+1844,Employee_1844, marketing ,8600
+1397,Employee_1397,finance,
+1558,Employee_1558, operations ,
+1835,Employee_1835, finance ,
+1433,Employee_1433,Marketing,
+1427,Employee_1427,operations,6400
+1523,Employee_1523,operations,9500
+1505,Employee_1505,HR,
+1733,Employee_1733, sales ,12000
+1699,Employee_1699,finance,
+1008,Employee_1008,Finance,9100
+1913,Employee_1913,Operations,
+1581,Employee_1581,Sales,2500
+1194,Employee_1194, sales ,11700
+1692,Employee_1692,it,11800
+1557,Employee_1557,IT,11300
+1686,Employee_1686,it,11600
+1841,Employee_1841,hr,3800
+1412,Employee_1412, finance ,9700
+1466,Employee_1466,IT,6900
+1456,Employee_1456,operations,7400
+1665,Employee_1665, finance ,
+1268,Employee_1268, operations ,
+1213,Employee_1213,it,9800
+1888,Employee_1888,finance,
+1424,Employee_1424, HR ,
+1294,Employee_1294,Sales,5500
+1828,Employee_1828,marketing,9900
+1816,Employee_1816,Sales,9500
+1813,Employee_1813,Marketing,3300
+1613,Employee_1613,sales,4700
+1870,Employee_1870,marketing,
+1653,Employee_1653, sales ,2000
+1090,Employee_1090,HR,
+1142,Employee_1142,marketing,9000
+1419,Employee_1419, marketing ,3600
+1311,Employee_1311, sales ,
+1734,Employee_1734,Marketing,7600
+1482,Employee_1482,HR,9200
+1240,Employee_1240,operations,11100
+1071,Employee_1071,Marketing,
+1376,Employee_1376,Finance,
+1313,Employee_1313,Sales,
+1399,Employee_1399,operations,3800
+1456,Employee_1456,operations,7400
+1364,Employee_1364,marketing,
+1829,Employee_1829,sales,5300
+1849,Employee_1849, HR ,
+1615,Employee_1615,marketing,
+1930,Employee_1930,Finance,10300
+1398,Employee_1398,sales,
+1446,Employee_1446,operations,6800
+1415,Employee_1415,Marketing,9300
+1380,Employee_1380, marketing ,
+1292,Employee_1292, finance ,8300
+1075,Employee_1075,operations,
+1227,Employee_1227,marketing,8200
+1487,Employee_1487,finance,
+1334,Employee_1334,Finance,7000
+1085,Employee_1085,finance,5000
+1481,Employee_1481,hr,
+1695,Employee_1695, IT ,10200
+1285,Employee_1285,it,
+1210,Employee_1210, operations ,2900
+1143,Employee_1143,Sales,
+1251,Employee_1251,Operations,8800
+1926,Employee_1926,Operations,
+1356,Employee_1356,Marketing,8900
+1577,Employee_1577,marketing,5100
+1389,Employee_1389, sales ,
+1536,Employee_1536, finance ,8600
+1830,Employee_1830, marketing ,3400
+1465,Employee_1465,marketing,
+1002,Employee_1002,HR,6200
+1184,Employee_1184,Finance,11300
+1110,Employee_1110, operations ,10600
+1161,Employee_1161,Finance,8200
+1938,Employee_1938, sales ,7300
+1812,Employee_1812,Operations,11100
+1432,Employee_1432,finance,5900
+1392,Employee_1392,operations,5400
+1902,Employee_1902,Operations,
+1173,Employee_1173,it,9900
+1129,Employee_1129, marketing ,
+1803,Employee_1803,sales,8700
+1799,Employee_1799,marketing,
+1780,Employee_1780,IT,6400
+1170,Employee_1170,IT,9800
+1485,Employee_1485, marketing ,11300
+1452,Employee_1452, finance ,8200
+1578,Employee_1578,it,8400
+1078,Employee_1078,it,4000
+1576,Employee_1576, IT ,10300
+1840,Employee_1840, operations ,
+1811,Employee_1811,it,5900
+1931,Employee_1931,Operations,
+1617,Employee_1617, finance ,
+1810,Employee_1810,marketing,
+1176,Employee_1176,Marketing,9200
+1819,Employee_1819, finance ,4600
+1678,Employee_1678, operations ,7300
+1415,Employee_1415,Marketing,9300
+1201,Employee_1201, operations ,9800
+1533,Employee_1533,sales,6100
+1312,Employee_1312,Marketing,3400
+1553,Employee_1553,Finance,8600
+1527,Employee_1527, operations ,11700
+1896,Employee_1896,hr,
+1400,Employee_1400,it,6900
+1706,Employee_1706,Operations,2500
+1310,Employee_1310, marketing ,
+1153,Employee_1153,finance,6500
+1834,Employee_1834,it,
+1274,Employee_1274, sales ,6800
+1820,Employee_1820, HR ,
+1879,Employee_1879,IT,9400
+1375,Employee_1375,hr,8700
+1092,Employee_1092,operations,10400
+1851,Employee_1851, marketing ,3300
+1453,Employee_1453,it,
+1934,Employee_1934,IT,
+1366,Employee_1366,sales,10600
+1091,Employee_1091,Finance,
+1319,Employee_1319,IT,6700
+1063,Employee_1063,sales,
+1019,Employee_1019, IT ,
+1249,Employee_1249, HR ,
+1042,Employee_1042,HR,
+1750,Employee_1750,Operations,3700
+1745,Employee_1745,Operations,
+1348,Employee_1348,Operations,2100
+1618,Employee_1618,Operations,8200
+1676,Employee_1676,sales,
+1023,Employee_1023,hr,
+1661,Employee_1661,sales,
+1707,Employee_1707, finance ,6300
+1511,Employee_1511,Marketing,11400
+1189,Employee_1189,Marketing,
+1236,Employee_1236,IT,5100
+1420,Employee_1420,Finance,3400
+1740,Employee_1740,Operations,
+1700,Employee_1700,marketing,4700
+1543,Employee_1543,Finance,4900
+1945,Employee_1945,hr,8900
+1316,Employee_1316, marketing ,8400
+1228,Employee_1228, marketing ,7300
+1242,Employee_1242,sales,
+1491,Employee_1491,Marketing,9100
+1674,Employee_1674,Operations,8700
+1108,Employee_1108,finance,7200
+1899,Employee_1899,sales,5500
+1442,Employee_1442, operations ,8900
+1440,Employee_1440, IT ,8300
+1718,Employee_1718,finance,6800
+1437,Employee_1437,Sales,7400
+1344,Employee_1344,Marketing,6300
+1474,Employee_1474,Marketing,5200
+1081,Employee_1081,sales,9800
+1697,Employee_1697,operations,5900
+1655,Employee_1655, IT ,10200
+1947,Employee_1947, operations ,4100
+1031,Employee_1031, IT ,3300
+1011,Employee_1011,Marketing,8600
+1891,Employee_1891,operations,10400
+1525,Employee_1525,operations,9500
+1796,Employee_1796, IT ,3100
+1158,Employee_1158,sales,
+1347,Employee_1347, operations ,2400
+1753,Employee_1753,finance,7800
+1258,Employee_1258,Marketing,
+1318,Employee_1318,operations,6100
+1497,Employee_1497,finance,4300
+1005,Employee_1005, finance ,4100
+1711,Employee_1711, HR ,3000
+1199,Employee_1199, operations ,5100
+1117,Employee_1117,Operations,2100
+1205,Employee_1205,it,6800
+1693,Employee_1693, HR ,3900
+1175,Employee_1175, IT ,3700
+1702,Employee_1702, sales ,4200
+1203,Employee_1203, marketing ,12000
+1757,Employee_1757,marketing,
+1921,Employee_1921,operations,
+1120,Employee_1120,IT,12000
+1178,Employee_1178,finance,
+1276,Employee_1276,IT,
+1863,Employee_1863, HR ,
+1014,Employee_1014,Marketing,10000
+1249,Employee_1249, HR ,
+1910,Employee_1910,sales,7800
+1346,Employee_1346, marketing ,6800
+1942,Employee_1942,it,6900
+1385,Employee_1385,finance,11300
+1895,Employee_1895,Marketing,
+1541,Employee_1541, IT ,
+1568,Employee_1568, operations ,2900
+1642,Employee_1642,marketing,
+1130,Employee_1130, IT ,3100
+1091,Employee_1091,Finance,
+1306,Employee_1306,IT,
+1127,Employee_1127,HR,
+1105,Employee_1105,Sales,
+1164,Employee_1164, sales ,5000
+1112,Employee_1112,Sales,5900
+1703,Employee_1703, IT ,
+1860,Employee_1860,operations,2900
+1869,Employee_1869,IT,5800
+1454,Employee_1454,Sales,
+1720,Employee_1720,Sales,9600
+1729,Employee_1729,HR,8400
+1328,Employee_1328, sales ,2700
+1503,Employee_1503,finance,9100
+1073,Employee_1073, marketing ,
+1003,Employee_1003,Sales,
+1574,Employee_1574, operations ,
+1826,Employee_1826,it,9900
+1621,Employee_1621,Sales,6100
+1013,Employee_1013,HR,7300
+1804,Employee_1804, operations ,3700
+1884,Employee_1884, IT ,11400
+1689,Employee_1689,Sales,6100
+1428,Employee_1428,HR,
+1109,Employee_1109,it,
+1741,Employee_1741, HR ,
+1095,Employee_1095,Finance,
+1182,Employee_1182, HR ,6700
+1924,Employee_1924, sales ,3800
+1949,Employee_1949, operations ,7500
+1336,Employee_1336, marketing ,2200
+1309,Employee_1309, IT ,2600
+1754,Employee_1754,marketing,11500
+1305,Employee_1305,IT,
+1782,Employee_1782,it,10600
+1531,Employee_1531,IT,
+1043,Employee_1043,Sales,5900
+1357,Employee_1357, operations ,3200
+1634,Employee_1634,Finance,8100
+1792,Employee_1792,marketing,10300
+1438,Employee_1438, marketing ,10400
+1772,Employee_1772,Sales,
+1472,Employee_1472,marketing,9700
+1295,Employee_1295, finance ,12000
+1601,Employee_1601,Finance,11800
+1868,Employee_1868,hr,10100
+1559,Employee_1559, IT ,4300
+1855,Employee_1855, sales ,6200
+1594,Employee_1594, IT ,5500
+1778,Employee_1778, sales ,3100
+1439,Employee_1439,it,2700
+1341,Employee_1341, IT ,
+1056,Employee_1056,sales,10300
+1787,Employee_1787, operations ,
+1875,Employee_1875, marketing ,
+1345,Employee_1345,Operations,
+1217,Employee_1217,sales,
+1461,Employee_1461,Finance,5300
+1041,Employee_1041, HR ,
+1643,Employee_1643, HR ,
+1675,Employee_1675,operations,11300
+1900,Employee_1900,sales,3500
+1712,Employee_1712, HR ,5000
+1179,Employee_1179,finance,
+1177,Employee_1177,Finance,11400
+1493,Employee_1493,finance,4400
+1059,Employee_1059,IT,
+1458,Employee_1458,marketing,
+1477,Employee_1477,sales,8600
+1017,Employee_1017,Marketing,
+1459,Employee_1459,operations,8200
+1701,Employee_1701,operations,
+1441,Employee_1441, HR ,4400
+1687,Employee_1687,sales,
+1890,Employee_1890,sales,3600
+1460,Employee_1460,Sales,3100
+1823,Employee_1823,operations,
+1878,Employee_1878, sales ,
+1638,Employee_1638,HR,11100
+1660,Employee_1660,IT,4300
+1520,Employee_1520,marketing,5900
+1418,Employee_1418,it,
+1030,Employee_1030,sales,2400
+1310,Employee_1310, marketing ,
+1401,Employee_1401,finance,
+1670,Employee_1670,it,8000
+1784,Employee_1784,marketing,
+1430,Employee_1430, finance ,
+1489,Employee_1489,marketing,
+1204,Employee_1204,IT,
+1372,Employee_1372, HR ,
+1033,Employee_1033,marketing,2000
+1514,Employee_1514,hr,10100
+1726,Employee_1726, operations ,7800
+1783,Employee_1783, HR ,10000
+1157,Employee_1157,hr,
+1573,Employee_1573, finance ,11000
+1827,Employee_1827,HR,
+1335,Employee_1335, marketing ,
+1383,Employee_1383,Operations,6200
+1530,Employee_1530,IT,7400
+1373,Employee_1373, finance ,6500
+1892,Employee_1892,finance,
+1580,Employee_1580, finance ,
+1602,Employee_1602, HR ,2400
+1004,Employee_1004,Sales,7600
+1664,Employee_1664,IT,
+1748,Employee_1748,marketing,
+1131,Employee_1131,Operations,10300
+1627,Employee_1627,Marketing,9200
+1625,Employee_1625,marketing,8700
+1343,Employee_1343,HR,8500
+1836,Employee_1836,finance,11200
+1042,Employee_1042,HR,
+1322,Employee_1322, operations ,5500
+1223,Employee_1223,marketing,2300
+1329,Employee_1329, IT ,5500
+1917,Employee_1917,operations,9900
+1512,Employee_1512,Operations,4000
+1114,Employee_1114,Marketing,9300
+1049,Employee_1049,operations,
+1290,Employee_1290,Sales,7300
+1077,Employee_1077, sales ,5800
+1207,Employee_1207,finance,11300
+1035,Employee_1035,hr,
+1448,Employee_1448,marketing,6500
+1286,Employee_1286, sales ,
+1937,Employee_1937,marketing,11000
+1387,Employee_1387,IT,
+1226,Employee_1226,sales,4400
+1708,Employee_1708,sales,7600
+1121,Employee_1121, finance ,11200
+1927,Employee_1927,finance,4300
+1513,Employee_1513, finance ,
+1457,Employee_1457, finance ,
+1388,Employee_1388,finance,3800
+1596,Employee_1596, marketing ,
+1222,Employee_1222,sales,11700
+1269,Employee_1269,operations,
+1172,Employee_1172,sales,9500
+1774,Employee_1774,marketing,8100
+1769,Employee_1769,IT,9000
+1685,Employee_1685,HR,2000
+1545,Employee_1545,Operations,11600
+1885,Employee_1885, sales ,2200
+1865,Employee_1865,HR,9200
+1766,Employee_1766, sales ,3300
+1124,Employee_1124,marketing,
+1916,Employee_1916,hr,4500
+1181,Employee_1181, finance ,8500
+1162,Employee_1162,operations,7000
+1705,Employee_1705,IT,9000
+1266,Employee_1266, HR ,11600
+1735,Employee_1735,sales,
+1118,Employee_1118,operations,6500
+1845,Employee_1845, marketing ,8900
+1192,Employee_1192,Operations,5900
+1764,Employee_1764,Marketing,
+1522,Employee_1522,hr,
+1673,Employee_1673, operations ,6400
+1308,Employee_1308, sales ,10400
+1469,Employee_1469, HR ,4500
+1598,Employee_1598,Sales,7400
+1241,Employee_1241,finance,
+1135,Employee_1135,Finance,
+1156,Employee_1156,Sales,2100
+1354,Employee_1354,IT,11600
+1140,Employee_1140,IT,6100
+1933,Employee_1933,Marketing,5900
+1684,Employee_1684,Finance,9100
+1061,Employee_1061, operations ,11500
+1353,Employee_1353, sales ,7500
+1644,Employee_1644,IT,6700
+1166,Employee_1166,Finance,
+1601,Employee_1601,Finance,11800
+1880,Employee_1880,it,6600
+1301,Employee_1301, sales ,
+1215,Employee_1215, operations ,10900
+1408,Employee_1408,marketing,
+1883,Employee_1883,HR,11200
+1298,Employee_1298,HR,
+1395,Employee_1395,HR,
+1132,Employee_1132,Finance,
+1315,Employee_1315, IT ,11100
+1912,Employee_1912, sales ,10500
+1739,Employee_1739,hr,8800
+1732,Employee_1732,operations,8000
+1417,Employee_1417,Sales,7000
+1566,Employee_1566, IT ,5900
+1039,Employee_1039, marketing ,5800
+1471,Employee_1471,finance,
+1250,Employee_1250,Operations,8400
+1506,Employee_1506,operations,5200
+1403,Employee_1403,it,11600
+1054,Employee_1054, sales ,10100
+1195,Employee_1195,finance,6500
+1137,Employee_1137,Finance,
+1582,Employee_1582, marketing ,
+1663,Employee_1663, operations ,3800
+1672,Employee_1672, marketing ,4900
+1282,Employee_1282,Marketing,8500
+1036,Employee_1036,marketing,4200
+1836,Employee_1836,finance,11200
+1814,Employee_1814, HR ,
+1744,Employee_1744, HR ,9500
+1379,Employee_1379,Operations,9800
+1645,Employee_1645, marketing ,5100
+1067,Employee_1067,Sales,
+1572,Employee_1572,finance,11400
+1682,Employee_1682,IT,6200
+1537,Employee_1537,Marketing,10300
+1053,Employee_1053,Sales,7300
+1378,Employee_1378,Operations,8600
+1713,Employee_1713, sales ,
+1852,Employee_1852,HR,11900
+1079,Employee_1079,Sales,
+1247,Employee_1247,Sales,11400
+1941,Employee_1941, IT ,2900
+1426,Employee_1426,Sales,
+1667,Employee_1667, IT ,9500
+1029,Employee_1029, marketing ,7700
+1908,Employee_1908, finance ,11000
+1245,Employee_1245,Marketing,10500
+1104,Employee_1104,marketing,10000
+1277,Employee_1277,Finance,
+1394,Employee_1394,marketing,6900
+1111,Employee_1111, marketing ,
+1160,Employee_1160,Marketing,10000
+1113,Employee_1113,marketing,
+1569,Employee_1569,operations,
+1552,Employee_1552,operations,
+1330,Employee_1330, marketing ,
+1263,Employee_1263,hr,8000
+1859,Employee_1859,Finance,
+1655,Employee_1655, IT ,10200
+1168,Employee_1168, HR ,2300
+1906,Employee_1906,sales,8700
+1155,Employee_1155,IT,3100
+1950,Employee_1950, marketing ,6100
+1025,Employee_1025, operations ,
+1858,Employee_1858,finance,7400
+1444,Employee_1444, operations ,10700
+1151,Employee_1151, operations ,2800
+1095,Employee_1095,Finance,
+1218,Employee_1218, HR ,6800
+1382,Employee_1382,Operations,
+1024,Employee_1024,IT,5800
+1293,Employee_1293,operations,
+1174,Employee_1174, IT ,2200
+1101,Employee_1101,HR,7300
+1026,Employee_1026,hr,2800
+1756,Employee_1756,operations,8000
+1637,Employee_1637,Marketing,5400
+1490,Employee_1490,sales,11100
+1866,Employee_1866, IT ,4700
+1355,Employee_1355, operations ,11400
+1646,Employee_1646,it,
+1243,Employee_1243,marketing,11700
+1269,Employee_1269,operations,
+1074,Employee_1074,Operations,
+1560,Employee_1560,hr,
+1705,Employee_1705,IT,9000
+1119,Employee_1119,sales,10100
+1115,Employee_1115, sales ,3200
+1521,Employee_1521, operations ,
+1006,Employee_1006, HR ,
+1476,Employee_1476, sales ,11300
+1657,Employee_1657,Finance,10100
+1305,Employee_1305,IT,
+1070,Employee_1070,Sales,2200
+1015,Employee_1015,operations,11900
+1369,Employee_1369,HR,2700
+1619,Employee_1619, HR ,
+1370,Employee_1370, sales ,9100
+1079,Employee_1079,Sales,
+1480,Employee_1480, finance ,10900
+1725,Employee_1725, operations ,9900
+1055,Employee_1055,operations,
+1468,Employee_1468, HR ,11600
+1267,Employee_1267,operations,
+1788,Employee_1788,Sales,3500
+1515,Employee_1515, finance ,
+1538,Employee_1538,sales,2700
+1873,Employee_1873,Marketing,
+1504,Employee_1504,sales,
+1607,Employee_1607,it,
+1167,Employee_1167,Sales,9900
+1691,Employee_1691, HR ,
+1332,Employee_1332,Sales,
+1877,Employee_1877,Sales,
+1248,Employee_1248,finance,9700
+1374,Employee_1374, HR ,9500
+1633,Employee_1633,Operations,11400
+1473,Employee_1473,finance,2100
+1500,Employee_1500,IT,11000
+1639,Employee_1639,marketing,3500
+1609,Employee_1609,Finance,2200
+1564,Employee_1564,hr,9100
+1859,Employee_1859,Finance,
+1308,Employee_1308, sales ,10400
+1794,Employee_1794, marketing ,8200
+1800,Employee_1800, IT ,
+1567,Employee_1567,Finance,10500
+1502,Employee_1502,HR,
+1235,Employee_1235,Sales,7900
+1776,Employee_1776,Finance,6300
+1431,Employee_1431,Finance,5000
+1630,Employee_1630, finance ,2300
+1192,Employee_1192,Operations,5900
+1152,Employee_1152,operations,8700
+1436,Employee_1436,HR,8400
+1257,Employee_1257,Finance,
+1911,Employee_1911,it,
+1668,Employee_1668,Sales,
+1779,Employee_1779,it,6300
+1542,Employee_1542, operations ,11800
+1570,Employee_1570, IT ,7000
+1583,Employee_1583, IT ,7800
+1384,Employee_1384,finance,4500
+1146,Employee_1146,Marketing,
+1851,Employee_1851, marketing ,3300
+1929,Employee_1929, finance ,
+1534,Employee_1534,Marketing,8200
+1216,Employee_1216, operations ,
+1843,Employee_1843,operations,4700
+1901,Employee_1901, operations ,
+1666,Employee_1666,sales,2200
+1197,Employee_1197,marketing,9700
+1844,Employee_1844, marketing ,8600
+1496,Employee_1496, HR ,
+1592,Employee_1592,Marketing,
+1018,Employee_1018,sales,5700
+1777,Employee_1777, operations ,4400
+1028,Employee_1028,Finance,2000
+1278,Employee_1278,marketing,6200
+1632,Employee_1632,marketing,2600
+1396,Employee_1396,Operations,7000
+1229,Employee_1229,IT,5300
+1321,Employee_1321, marketing ,
+1148,Employee_1148, finance ,10600
+1722,Employee_1722, operations ,
+1242,Employee_1242,sales,
+1495,Employee_1495,hr,4500
+1599,Employee_1599,HR,6800
+1450,Employee_1450,marketing,
+1714,Employee_1714,marketing,
+1107,Employee_1107,IT,11100
+1351,Employee_1351, operations ,8300
+1524,Employee_1524, IT ,11000
+1390,Employee_1390, HR ,6300
+1449,Employee_1449, IT ,12000
+1094,Employee_1094,finance,
+1260,Employee_1260, sales ,
+1555,Employee_1555, marketing ,8700
+1889,Employee_1889,hr,10300
+1171,Employee_1171, sales ,11600
+1255,Employee_1255, operations ,2000
+1603,Employee_1603,it,
+1253,Employee_1253,Finance,
+1307,Employee_1307,Operations,2900
+1548,Employee_1548,finance,
+1797,Employee_1797,finance,4800
+1734,Employee_1734,Marketing,7600
+1429,Employee_1429, finance ,9900
+1187,Employee_1187, marketing ,3900
+1270,Employee_1270,HR,
+1631,Employee_1631, operations ,10200
+1163,Employee_1163,Sales,8200
+1414,Employee_1414,Sales,10900
+1775,Employee_1775,marketing,
+1790,Employee_1790,hr,
+1099,Employee_1099, operations ,
+1007,Employee_1007, sales ,7200
+1802,Employee_1802,Operations,3900
+1853,Employee_1853,Finance,2900
+1612,Employee_1612,Operations,5400
+1230,Employee_1230, operations ,8100
+1265,Employee_1265, marketing ,
+1369,Employee_1369,HR,2700
+1696,Employee_1696,operations,
+1862,Employee_1862,finance,
+1846,Employee_1846, marketing ,10600
+1897,Employee_1897,it,6600
+1404,Employee_1404, sales ,6500
+1948,Employee_1948,IT,9600
+1611,Employee_1611, HR ,11400
+1190,Employee_1190,it,11700
+1333,Employee_1333, IT ,2300
+1304,Employee_1304,sales,6800
+1261,Employee_1261, marketing ,6600
+1145,Employee_1145,finance,8500
+1628,Employee_1628,Marketing,
+1284,Employee_1284,Sales,9700
+1854,Employee_1854,operations,3300
+1012,Employee_1012,marketing,6900
+1815,Employee_1815,sales,
+1595,Employee_1595,hr,2800
+1694,Employee_1694, sales ,
+1532,Employee_1532, HR ,10000
+1470,Employee_1470,Finance,
+1128,Employee_1128, sales ,3500
+1736,Employee_1736,operations,
+1058,Employee_1058, finance ,7500
+1034,Employee_1034, operations ,10400
+1238,Employee_1238,Sales,3700
+1922,Employee_1922, marketing ,
+1283,Employee_1283,operations,3600
+1587,Employee_1587,it,8700
+1363,Employee_1363,sales,3100
+1244,Employee_1244, sales ,9700
+1604,Employee_1604, finance ,6400
+1093,Employee_1093, IT ,4100
+1211,Employee_1211,Sales,8200
+1338,Employee_1338, IT ,7700
+1730,Employee_1730, finance ,
+1669,Employee_1669,marketing,8400
+1302,Employee_1302,marketing,
+1086,Employee_1086,Marketing,10500
+1191,Employee_1191,finance,11600
+1040,Employee_1040,sales,2900
+1501,Employee_1501,operations,10600
+1624,Employee_1624,IT,
+1508,Employee_1508,it,7800
+1635,Employee_1635,Marketing,
+1517,Employee_1517,Sales,
+1724,Employee_1724,sales,4700
+1105,Employee_1105,Sales,
+1807,Employee_1807,marketing,8200
+1234,Employee_1234, HR ,9700
+1677,Employee_1677, finance ,10100
+1106,Employee_1106,operations,
+1342,Employee_1342,Sales,7800
+1927,Employee_1927,finance,4300
+1254,Employee_1254,it,7800
+1409,Employee_1409,operations,
+1423,Employee_1423,Marketing,
+1209,Employee_1209,hr,8100
+1365,Employee_1365,hr,9600
+1771,Employee_1771,sales,11900
+1083,Employee_1083,sales,3200
+1498,Employee_1498,IT,11400
+1920,Employee_1920, HR ,
+1584,Employee_1584,Finance,
+1781,Employee_1781, IT ,2400
+1088,Employee_1088,marketing,9200
+1065,Employee_1065, marketing ,
+1271,Employee_1271, IT ,
+1606,Employee_1606,operations,7100
+1275,Employee_1275,IT,9300
+1591,Employee_1591, marketing ,5400
+1871,Employee_1871,sales,5800
+1793,Employee_1793, marketing ,8700
+1894,Employee_1894, marketing ,8000
+1154,Employee_1154,marketing,8200
+1614,Employee_1614,it,7900
+1783,Employee_1783, HR ,10000
+1411,Employee_1411, IT ,
+1867,Employee_1867,Operations,3100
+1518,Employee_1518,Finance,7700
+1045,Employee_1045,Finance,9900
+1626,Employee_1626, finance ,
+1391,Employee_1391, sales ,11300
+1221,Employee_1221, operations ,10000
+1141,Employee_1141,it,9800
+1350,Employee_1350,finance,
+1358,Employee_1358,Sales,
+1723,Employee_1723, marketing ,
+1134,Employee_1134, operations ,7700
+1262,Employee_1262, marketing ,
+1279,Employee_1279,Sales,
+1080,Employee_1080,Sales,5700
+1676,Employee_1676,sales,
+1116,Employee_1116, marketing ,6500
+1817,Employee_1817, finance ,10800
+1837,Employee_1837,operations,
+1719,Employee_1719,Operations,
+1381,Employee_1381, HR ,3800
+1935,Employee_1935,marketing,7600
+1185,Employee_1185,finance,6600
+1791,Employee_1791, sales ,4800
+1359,Employee_1359,Finance,6100
+1037,Employee_1037, IT ,
+1340,Employee_1340,Operations,7200
+1838,Employee_1838,IT,6300
+1755,Employee_1755, operations ,8000
+1421,Employee_1421,finance,4300
+1150,Employee_1150,Operations,2000
+1010,Employee_1010,HR,5700
+1046,Employee_1046,Sales,5300
+1096,Employee_1096,hr,
+1903,Employee_1903, operations ,9200
+1679,Employee_1679,Marketing,10100
+1549,Employee_1549, HR ,
+1561,Employee_1561,finance,7100
+1299,Employee_1299,Finance,7300
+1291,Employee_1291,HR,
+1416,Employee_1416,HR,
+1314,Employee_1314,Finance,11300
+1422,Employee_1422,operations,
+1658,Employee_1658,operations,10700
+1123,Employee_1123, IT ,
+1842,Employee_1842, HR ,3100
+1818,Employee_1818,HR,6900
+1362,Employee_1362,Operations,8600
+1337,Employee_1337,Sales,2900
+1136,Employee_1136,it,5300
+1850,Employee_1850, finance ,
+1710,Employee_1710,IT,
+1770,Employee_1770, operations ,
+1652,Employee_1652,HR,7500
+1368,Employee_1368, HR ,9800
+1346,Employee_1346, marketing ,6800
+1915,Employee_1915,sales,3700
+1620,Employee_1620,Sales,
+1009,Employee_1009,finance,4400
+1098,Employee_1098,marketing,3100
+1229,Employee_1229,IT,5300
+1349,Employee_1349,operations,11300
+1510,Employee_1510,hr,5500
+1867,Employee_1867,Operations,3100
+1704,Employee_1704,Finance,
+1747,Employee_1747, IT ,11400
+1022,Employee_1022, HR ,2700
+1483,Employee_1483,hr,2200
+1102,Employee_1102, HR ,
+1406,Employee_1406,Marketing,3800
+1785,Employee_1785,Sales,
+1918,Employee_1918,operations,6400
+1724,Employee_1724,sales,4700
+1848,Employee_1848,Operations,
+1479,Employee_1479, marketing ,6800
+1591,Employee_1591, marketing ,5400
+1492,Employee_1492,Marketing,10200
+1047,Employee_1047,Finance,6100
+1365,Employee_1365,hr,9600
+1297,Employee_1297,finance,9900
+1050,Employee_1050,hr,
+1488,Employee_1488, finance ,7800
+1225,Employee_1225,Finance,8500
+1751,Employee_1751,Operations,10700
+1220,Employee_1220,Operations,
+1946,Employee_1946,IT,
+1762,Employee_1762,operations,
+1234,Employee_1234, HR ,9700
+1648,Employee_1648,sales,6000
+1202,Employee_1202, sales ,
+1563,Employee_1563,marketing,
+1623,Employee_1623,Marketing,4100
+1208,Employee_1208,Finance,5900
+1064,Employee_1064, HR ,6400
+1805,Employee_1805,it,
+1605,Employee_1605, HR ,10200
+1246,Employee_1246, HR ,10400
+1443,Employee_1443,sales,
+1387,Employee_1387,IT,
+1575,Employee_1575,Sales,
+1001,Employee_1001,operations,7200
+1540,Employee_1540,IT,3000
+1768,Employee_1768, HR ,7800
+1763,Employee_1763, finance ,7000
+1690,Employee_1690, HR ,3000
+1188,Employee_1188,Sales,6200
+1407,Employee_1407,Finance,
+1149,Employee_1149,Marketing,3100
+1752,Employee_1752, operations ,3600
+1746,Employee_1746, operations ,
+1944,Employee_1944, finance ,10200
+1027,Employee_1027,Finance,
+1462,Employee_1462,Operations,8100
+1671,Employee_1671,finance,12000
+1656,Employee_1656,finance,
+1786,Employee_1786, marketing ,
+1060,Employee_1060,hr,2300
+1715,Employee_1715,it,
+1327,Employee_1327,Operations,2700
+1425,Employee_1425,it,11000
+1721,Employee_1721,Finance,2500
+1478,Employee_1478, HR ,3800
+1044,Employee_1044,Operations,2200
+1662,Employee_1662,Operations,5300
+1636,Employee_1636,Sales,12000
+1824,Employee_1824, IT ,12000
+1529,Employee_1529,HR,9600
+1737,Employee_1737,it,8400
+1484,Employee_1484, finance ,12000
+1219,Employee_1219,IT,11600
+1742,Employee_1742, marketing ,
+1821,Employee_1821, IT ,10300
+1190,Employee_1190,it,11700
+1856,Employee_1856, operations ,4100
+1923,Employee_1923,operations,
+1610,Employee_1610,Marketing,5200
+1486,Employee_1486, operations ,2600
+1126,Employee_1126,Operations,5500
+1904,Employee_1904,operations,4300
+1062,Employee_1062,operations,
+1082,Employee_1082,Sales,10500
+1681,Employee_1681,operations,6500
+1325,Employee_1325,HR,9400
+1386,Employee_1386,Operations,5500
+1577,Employee_1577,marketing,5100
+1057,Employee_1057,Marketing,2300
+1020,Employee_1020,HR,9900
+1036,Employee_1036,marketing,4200
+1087,Employee_1087, operations ,
+1839,Employee_1839,it,6400
+1759,Employee_1759,Marketing,
+1650,Employee_1650,finance,4800
+1317,Employee_1317,finance,11200
+1035,Employee_1035,hr,
+1809,Employee_1809,marketing,
+1139,Employee_1139, finance ,9700
+1767,Employee_1767,finance,2800
+1589,Employee_1589,hr,11500
+1905,Employee_1905,Sales,6600
+1499,Employee_1499,it,
+1539,Employee_1539, finance ,
+1801,Employee_1801,Operations,10200
+1556,Employee_1556,sales,
+1097,Employee_1097, operations ,12000
+1084,Employee_1084, sales ,10800
+1447,Employee_1447, HR ,
+1475,Employee_1475,finance,8000
+1765,Employee_1765,marketing,
+1367,Employee_1367,Sales,10900
+1874,Employee_1874,Finance,4100
+1698,Employee_1698, sales ,
+1586,Employee_1586,Sales,
+1886,Employee_1886, HR ,7300
+1545,Employee_1545,Operations,11600
+1761,Employee_1761, finance ,5200
+1919,Employee_1919, HR ,8400
+1402,Employee_1402,Marketing,10700
+1760,Employee_1760,hr,8200
+1393,Employee_1393,Operations,
+1940,Employee_1940,Sales,7300
+1746,Employee_1746, operations ,
+1272,Employee_1272,Operations,8600
+1507,Employee_1507,IT,10500
+1703,Employee_1703, IT ,
+1435,Employee_1435,marketing,5900
+1649,Employee_1649,it,2100
+1943,Employee_1943, IT ,3700
+1808,Employee_1808,hr,10900
+1562,Employee_1562,hr,8600
+1208,Employee_1208,Finance,5900
+1320,Employee_1320, sales ,3500
+1239,Employee_1239,sales,
+1133,Employee_1133, marketing ,
+1051,Employee_1051,hr,5000
+1239,Employee_1239,sales,
+1565,Employee_1565, marketing ,6100
+1593,Employee_1593,Marketing,3200
+1451,Employee_1451, sales ,
+1032,Employee_1032, finance ,10000
+1122,Employee_1122,marketing,
+1212,Employee_1212, IT ,
+1352,Employee_1352,marketing,9300
+1455,Employee_1455,Sales,6800
+1303,Employee_1303, marketing ,
+1709,Employee_1709,Operations,3200
+1089,Employee_1089,Finance,
+1326,Employee_1326, finance ,11900
+1324,Employee_1324, marketing ,3200
+1256,Employee_1256, operations ,
+1893,Employee_1893,Sales,
+1571,Employee_1571, HR ,
+1546,Employee_1546, HR ,
+1551,Employee_1551, HR ,11200
+1360,Employee_1360,finance,2700
+1052,Employee_1052,Marketing,
+1876,Employee_1876,operations,7300
+1939,Employee_1939, IT ,8000
+1773,Employee_1773,IT,3900
+1103,Employee_1103, HR ,7000
+1196,Employee_1196, marketing ,2100
+1680,Employee_1680,Marketing,
+1806,Employee_1806,IT,
+1629,Employee_1629,it,
+1125,Employee_1125,HR,4000
+1405,Employee_1405, IT ,
+1731,Employee_1731,it,
+1288,Employee_1288,Finance,2700
+1832,Employee_1832,finance,7000
+1048,Employee_1048,Operations,8000
+1726,Employee_1726, operations ,7800
+1588,Employee_1588,sales,3400
+1608,Employee_1608, IT ,
+1434,Employee_1434, operations ,6200
+1675,Employee_1675,operations,11300
+1264,Employee_1264,IT,3000
+1361,Employee_1361, finance ,5900
+1076,Employee_1076,finance,3400
+1467,Employee_1467,Sales,10900
+1300,Employee_1300, marketing ,10600
+1535,Employee_1535, HR ,2500
+1585,Employee_1585, marketing ,8800
+1494,Employee_1494,HR,11500
+1528,Employee_1528,Marketing,3000
+1169,Employee_1169,Marketing,5600

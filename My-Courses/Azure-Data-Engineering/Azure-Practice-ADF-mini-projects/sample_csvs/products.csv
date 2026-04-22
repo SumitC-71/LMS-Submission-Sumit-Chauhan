@@ -1,0 +1,8 @@
+product_id,product_name,category,price,stock_quantity
+P001,Laptop,Electronics,80000,10
+P002,Smartphone,Electronics,30000,25
+P003,Headphones,Accessories,2000,50
+P004,Office Chair,Furniture,7000,15
+P005,Desk,Furniture,12000,8
+P006,Tablet,Electronics,25000,12
+P007,Mouse,Accessories,500,100

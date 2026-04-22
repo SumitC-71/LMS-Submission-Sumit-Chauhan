@@ -1,0 +1,8 @@
+order_id,customer_id,order_date,status,total_amount
+O001,C001,2024-04-01,Completed,82000
+O002,C002,2024-04-02,Pending,30000
+O003,C003,2024-04-03,Completed,2000
+O004,C004,2024-04-04,Cancelled,7000
+O005,C005,2024-04-05,Completed,12000
+O006,C006,2024-04-06,Completed,25500
+O007,C007,2024-04-07,Pending,500

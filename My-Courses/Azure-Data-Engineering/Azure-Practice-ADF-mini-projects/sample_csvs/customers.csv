@@ -1,0 +1,8 @@
+customer_id,full_name,email,gender,age_group,country,is_active
+C001,Aakash Sharma,aakash@gmail.com,Male,18-25,India,TRUE
+C002,John Doe,john@gmail.com,Male,26-35,USA,TRUE
+C003,Maria Garcia,maria@gmail.com,Female,26-35,Spain,TRUE
+C004,Chen Wei,chen@gmail.com,Male,36-45,China,FALSE
+C005,Ali Khan,ali@gmail.com,Male,18-25,UAE,TRUE
+C006,Sophia Brown,sophia@gmail.com,Female,26-35,UK,TRUE
+C007,David Lee,david@gmail.com,Male,36-45,Singapore,FALSE
