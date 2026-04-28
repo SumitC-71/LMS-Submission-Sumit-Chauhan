@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscription": {
+            "value": "57b0d4b6-5bdd-426a-9c32-cf07e91dcb05"
+        },
+        "resourceGroup": {
+            "value": "rsg-adf-demo"
+        },
+        "name": {
+            "value": "azure-adf-demo01"
+        },
+        "version": {
+            "value": "V2"
+        },
+        "location": {
+            "value": "centralindia"
+        },
+        "vNetEnabled": {
+            "value": false
+        },
+        "publicNetworkAccess": {
+            "value": true
+        },
+        "privateEndpoints": {
+            "value": []
+        },
+        "gitConfigureLater": {
+            "value": true
+        },
+        "tagsByResource": {
+            "value": {}
+        },
+        "userAssignedIdentitiesStr": {
+            "value": ""
+        },
+        "vaultBaseUrl": {
+            "value": ""
+        },
+        "keyName": {
+            "value": ""
+        },
+        "keyVersion": {
+            "value": ""
+        },
+        "enableCMK": {
+            "value": false
+        }
+    }
+}

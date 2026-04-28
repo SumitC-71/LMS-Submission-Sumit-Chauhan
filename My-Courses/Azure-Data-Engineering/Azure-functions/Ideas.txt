@@ -1,0 +1,5 @@
+Schedular types:
+email schedular for sending daily emails 
+
+function that maintains indexes like perform rebuild or reorganize indexes weekly in sql database maybe
+

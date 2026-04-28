@@ -1,0 +1,7 @@
+Car,MPG,Cylinders,Displacement,Horsepower,Weight,Acceleration,Model,Origin
+Ford Galaxie 500,15.0,8,429.0,198.0,4341.,10.0,70,US
+Chevrolet Impala,14.0,8,454.0,220.0,4354.,9.0,70,US
+Plymouth Fury iii,14.0,8,440.0,215.0,4312.,8.5,70,US
+Pontiac Catalina,14.0,8,455.0,225.0,4425.,10.0,70,US
+AMC Ambassador DPL,15.0,8,390.0,190.0,3850.,8.5,70,US
+Citroen DS-21 Pallas,0,4,133.0,115.0,3090.,17.5,70,Europe

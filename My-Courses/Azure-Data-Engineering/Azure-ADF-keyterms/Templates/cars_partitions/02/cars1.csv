@@ -1,0 +1,8 @@
+Car,MPG,Cylinders,Displacement,Horsepower,Weight,Acceleration,Model,Origin
+Datsun PL510,27.0,4,97.00,88.00,2130.,14.5,70,Japan
+Volkswagen 1131 Deluxe Sedan,26.0,4,97.00,46.00,1835.,20.5,70,Europe
+Chevrolet Chevelle Malibu,18.0,8,307.0,130.0,3504.,12.0,70,US
+Buick Skylark 320,15.0,8,350.0,165.0,3693.,11.5,70,US
+Plymouth Satellite,18.0,8,318.0,150.0,3436.,11.0,70,US
+AMC Rebel SST,16.0,8,304.0,150.0,3433.,12.0,70,US
+Ford Torino,17.0,8,302.0,140.0,3449.,10.5,70,US

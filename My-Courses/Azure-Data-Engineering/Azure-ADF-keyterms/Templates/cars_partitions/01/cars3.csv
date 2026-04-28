@@ -1,0 +1,8 @@
+Car,MPG,Cylinders,Displacement,Horsepower,Weight,Acceleration,Model,Origin
+Ford Mustang Boss 302,0,8,302.0,140.0,3353.,8.0,70,US
+Chevrolet Monte Carlo,15.0,8,400.0,150.0,3761.,9.5,70,US
+Buick Estate Wagon (sw),14.0,8,455.0,225.0,3086.,10.0,70,US
+Toyota Corolla Mark ii,24.0,4,113.0,95.00,2372.,15.0,70,Japan
+Plymouth Duster,22.0,6,198.0,95.00,2833.,15.5,70,US
+AMC Hornet,18.0,6,199.0,97.00,2774.,15.5,70,US
+Ford Maverick,21.0,6,200.0,85.00,2587.,16.0,70,US
