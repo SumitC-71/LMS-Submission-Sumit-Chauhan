@@ -1,0 +1,6 @@
+payment_id,order_id,amount,payment_method,status
+401,301,70000,UPI,Success
+402,302,60000,Card,Success
+403,303,4500,UPI,Failed
+404,304,5000,Cash,Success
+405,305,8000,Card,Success
